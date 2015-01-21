@@ -1,0 +1,40 @@
+{
+    "name": "anroots/php-fleep",
+    "description": "A PHP client library for fleep.io API",
+    "keywords": [
+        "anroots",
+        "php-fleep",
+        "fleep"
+    ],
+    "homepage": "https://github.com/anroots/php-fleep",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ando Roots",
+            "email": "ando@sqroot.eu",
+            "homepage": "http://sqroot.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anroots\\Fleep\\": "src/Anroots/Fleep/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anroots\\Fleep\\Test\\": "tests/Anroots/Fleep/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
