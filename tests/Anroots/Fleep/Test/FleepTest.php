@@ -2,7 +2,7 @@
 
 namespace Anroots\Fleep\Test;
 
-class SkeletonClassTest extends TestCase
+class FleepTest extends TestCase
 {
 
     public function testExample()

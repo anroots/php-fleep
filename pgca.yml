@@ -1,0 +1,14 @@
+provider:
+  name: fileSystemProvider
+  path: .
+  filters:
+    - name: isNotMergeCommit
+
+analyzers:
+  message:
+    rules:
+      - name: message.isAboutTravis
+      - name: message.hasSummaryAndDescription
+      - name: message.isTooShort
+        config:
+          min: 6
